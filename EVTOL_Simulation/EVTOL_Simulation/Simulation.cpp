@@ -4,6 +4,7 @@
 #include "eVTOL_Charlie.h"
 #include "eVTOL_Delta.h"
 #include "eVTOL_Echo.h"
+#include <iostream>
 #include <random>
 
 Simulation::Simulation()
@@ -38,11 +39,6 @@ Simulation::Simulation()
         }	
 	}
 
-    //Initialize Chargers
-    eVTOL_Aircraft::charger1 = new bool(true);
-    eVTOL_Aircraft::charger2 = new bool(true);
-    eVTOL_Aircraft::charger3 = new bool(true);
-
     this->simulationTime = 0;
 }
 
@@ -57,4 +53,11 @@ void Simulation::Simulate()
 
         this->simulationTime += .01;
     }
+}
+
+void Simulation::printResults()
+{
+    std::cout << "\n";
+    std::cout << "Alpha Results: " << "\n Time Spent Charging: " << eVTOL_Alpha::timeSpentCharging;
+    std::cout << "\n Total Distance Travelled: " << eVTOL_Alpha::totalDistanceTravelled;
 }

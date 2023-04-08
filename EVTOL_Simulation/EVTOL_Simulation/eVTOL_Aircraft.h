@@ -7,14 +7,11 @@ public:
 	eVTOL_Aircraft();
 	 
 	/// Advance simulation by .01 hours
-	void stepSimulation();
+	virtual void stepSimulation() = 0;
 
-	virtual void charge(bool* charger) = 0;
+	virtual void charge() = 0;
 
-	// 3 chargers to be used by all eVTOL_Aircraft. true = charger is available
-	static bool* charger1;
-	static bool* charger2;
-	static bool* charger3;
+	static int availableChargers;
 
 protected:
 
@@ -29,4 +26,7 @@ protected:
 	int flightCount;
 	float distanceTraveled;
 	float passengerMiles;
+
+	bool needsCharge = false;
+	bool isCharging = false;
 };

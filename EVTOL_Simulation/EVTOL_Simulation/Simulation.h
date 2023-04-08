@@ -10,6 +10,8 @@ public:
 
 	void Simulate();
 
+	void printResults();
+
 private:
 
 	const int AMOUNT_OF_AIRCRAFT = 20;

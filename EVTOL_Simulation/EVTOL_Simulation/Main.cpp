@@ -8,4 +8,6 @@ int main()
 	Simulation* sim = new Simulation();
 
 	sim->Simulate();
+
+	sim->printResults();
 }
