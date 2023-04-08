@@ -139,7 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="eVTOL_Aircraft.cpp" />
+    <ClCompile Include="eVTOL_Alpha.cpp" />
+    <ClCompile Include="eVTOL_Bravo.cpp" />
+    <ClCompile Include="eVTOL_Charlie.cpp" />
+    <ClCompile Include="eVTOL_Delta.cpp" />
+    <ClCompile Include="eVTOL_Echo.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eVTOL_Aircraft.h" />
+    <ClInclude Include="eVTOL_Alpha.h" />
+    <ClInclude Include="eVTOL_Bravo.h" />
+    <ClInclude Include="eVTOL_Charlie.h" />
+    <ClInclude Include="eVTOL_Delta.h" />
+    <ClInclude Include="eVTOL_Echo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
