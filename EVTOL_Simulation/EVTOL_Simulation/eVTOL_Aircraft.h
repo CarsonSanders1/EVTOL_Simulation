@@ -3,6 +3,8 @@
 class eVTOL_Aircraft
 {
 public: 
+
+	eVTOL_Aircraft();
 	 
 	/// Advance simulation by .01 hours
 	void stepSimulation();

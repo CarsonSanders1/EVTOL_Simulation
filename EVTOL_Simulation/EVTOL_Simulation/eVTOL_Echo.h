@@ -1,7 +1,7 @@
 #pragma once
 #include "eVTOL_Aircraft.h"
 
-class eVTOL_Echo : eVTOL_Aircraft
+class eVTOL_Echo : public eVTOL_Aircraft
 {
 public:
 

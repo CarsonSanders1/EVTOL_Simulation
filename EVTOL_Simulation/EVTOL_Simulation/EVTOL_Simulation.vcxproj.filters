@@ -13,47 +13,56 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\eVTOL_Aircraft">
+      <UniqueIdentifier>{740c12b3-f140-48b6-be91-be10036f51c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="eVTOL_Aircraft.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClCompile>
     <ClCompile Include="eVTOL_Alpha.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClCompile>
     <ClCompile Include="eVTOL_Bravo.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClCompile>
     <ClCompile Include="eVTOL_Charlie.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClCompile>
     <ClCompile Include="eVTOL_Delta.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClCompile>
     <ClCompile Include="eVTOL_Echo.cpp">
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="eVTOL_Aircraft.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClInclude>
     <ClInclude Include="eVTOL_Alpha.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClInclude>
     <ClInclude Include="eVTOL_Bravo.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClInclude>
     <ClInclude Include="eVTOL_Charlie.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClInclude>
     <ClInclude Include="eVTOL_Delta.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
     </ClInclude>
     <ClInclude Include="eVTOL_Echo.h">
+      <Filter>Source Files\eVTOL_Aircraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

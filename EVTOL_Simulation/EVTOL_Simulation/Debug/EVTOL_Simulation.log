@@ -1,2 +1,3 @@
-﻿  Main.cpp
+﻿  Simulation.cpp
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\Simulation.cpp(58,36): warning C4305: '+=': truncation from 'double' to 'float'
   EVTOL_Simulation.vcxproj -> C:\Repos\EVTOL_Simulation\EVTOL_Simulation\Debug\EVTOL_Simulation.exe
