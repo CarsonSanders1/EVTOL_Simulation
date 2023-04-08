@@ -38,10 +38,10 @@ Simulation::Simulation()
         }	
 	}
 
-	for (int i = 0; i < AMOUNT_OF_CHARGERS; i++)
-	{
-        this->chargers.push_back(new bool(true));
-	}
+    //Initialize Chargers
+    eVTOL_Aircraft::charger1 = new bool(true);
+    eVTOL_Aircraft::charger2 = new bool(true);
+    eVTOL_Aircraft::charger3 = new bool(true);
 
     this->simulationTime = 0;
 }

@@ -4,6 +4,7 @@ eVTOL_Charlie::eVTOL_Charlie()
 {
 	this->cruiseSpeed = 160;
 	this->batteryCapacity = 220;
+	this->currentBattery = 220.0;
 	this->timeToCharge = .8;
 	this->energyUse = 2.2;
 	this->passengerCount = 3;
