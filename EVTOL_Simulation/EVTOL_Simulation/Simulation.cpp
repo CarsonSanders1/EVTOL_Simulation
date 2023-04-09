@@ -57,7 +57,5 @@ void Simulation::Simulate()
 
 void Simulation::printResults()
 {
-    std::cout << "\n";
-    std::cout << "Alpha Results: " << "\n Time Spent Charging: " << eVTOL_Alpha::timeSpentCharging;
-    std::cout << "\n Total Distance Travelled: " << eVTOL_Alpha::totalDistanceTravelled;
+    
 }

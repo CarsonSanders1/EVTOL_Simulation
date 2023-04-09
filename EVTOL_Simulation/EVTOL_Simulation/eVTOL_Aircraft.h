@@ -7,13 +7,21 @@ public:
 	eVTOL_Aircraft();
 	 
 	/// Advance simulation by .01 hours
-	virtual void stepSimulation() = 0;
-
-	virtual void charge() = 0;
-
-	static int availableChargers;
+	void stepSimulation();
 
 protected:
+
+	void charge();
+
+	virtual void recordFlightData() = 0;
+
+	virtual void incrementTotalFlights() = 0;
+
+	virtual void incrementTimeSpentCharging() = 0;
+
+	virtual void incrementChargeSessions() = 0;
+
+	static int availableChargers;
 
 	int cruiseSpeed;
 	int batteryCapacity;

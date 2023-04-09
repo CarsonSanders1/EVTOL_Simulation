@@ -11,10 +11,17 @@ public:
 	//Deconstructor
 	~eVTOL_Delta();
 
-	/// Advance simulation by .01 hours
-	void stepSimulation();
+private:
 
 	void charge();
+
+	void recordFlightData();
+
+	void incrementTotalFlights();
+
+	void incrementTimeSpentCharging();
+
+	void incrementChargeSessions();
 
 	//Per Vehicle type statistics to track
 	static float totalFlightTime;
@@ -27,7 +34,5 @@ public:
 	static int totalFaults;
 
 	static float totalPassengerMiles;
-
-private:
 	
 };

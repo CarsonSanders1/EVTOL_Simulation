@@ -11,8 +11,17 @@ public:
 	//Deconstructor
 	~eVTOL_Alpha();
 
-	/// Advance simulation by .01 hours
-	void stepSimulation();
+	
+
+private:
+
+	void recordFlightData();
+
+	void incrementTotalFlights();
+
+	void incrementTimeSpentCharging();
+
+	void incrementChargeSessions();
 
 	void charge();
 
@@ -27,7 +36,5 @@ public:
 	static int totalFaults;
 
 	static float totalPassengerMiles;
-
-private:
 	
 };

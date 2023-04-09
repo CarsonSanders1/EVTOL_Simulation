@@ -19,61 +19,25 @@ eVTOL_Charlie::eVTOL_Charlie()
 	this->faultProbability = .05;
 }
 
-//step simulation .01 hours
-void eVTOL_Charlie::stepSimulation()
+void eVTOL_Charlie::recordFlightData()
 {
-	if (needsCharge)
-	{
-		charge();
-	}
-	else
-	{
-		//Update tracking data
-		this->totalFlightTime += .01;
-		this->totalDistanceTravelled += (.01 * this->cruiseSpeed);
-		//@Todo calculate fault
-		this->totalPassengerMiles += (.01 * this->cruiseSpeed * this->passengerCount);
-
-		this->currentBattery -= (.01 * this->cruiseSpeed) * this->energyUse;
-
-		if (currentBattery <= 0)
-		{
-			currentBattery = 0;
-			this->needsCharge = true;
-		}
-	}
+	this->totalFlightTime += .01;
+	this->totalDistanceTravelled += (.01 * this->cruiseSpeed);
+	////@Todo calculate fault
+	this->totalPassengerMiles += (.01 * this->cruiseSpeed * this->passengerCount);
 }
 
-void eVTOL_Charlie::charge()
+void eVTOL_Charlie::incrementTotalFlights()
 {
-	if (!isCharging)
-	{
-		if (eVTOL_Aircraft::availableChargers <= 0)
-		{
-			//wait for charger to become available...
-		}
-		else
-		{
-			eVTOL_Aircraft::availableChargers -= 1;
-			this->isCharging = true;
-		}
-	}
+	this->totalFlights += 1;
+}
 
-	if (isCharging)
-	{
-		auto chargeRate = this->batteryCapacity / this->timeToCharge;
+void eVTOL_Charlie::incrementTimeSpentCharging()
+{
+	this->timeSpentCharging += .01;
+}
 
-		this->currentBattery += chargeRate * .01;
-
-		this->timeSpentCharging += .01;
-
-		//if finished charging
-		if (this->currentBattery >= this->batteryCapacity)
-		{
-			this->chargeSessions += 1;
-			this->isCharging = false;
-			this->needsCharge = false;
-			this->availableChargers += 1;
-		}
-	}
+void eVTOL_Charlie::incrementChargeSessions()
+{
+	this->chargeSessions += .01;
 }
