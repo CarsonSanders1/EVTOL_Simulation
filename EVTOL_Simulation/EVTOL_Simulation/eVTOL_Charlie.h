@@ -11,10 +11,9 @@ public:
 	//Deconstructor
 	~eVTOL_Charlie();
 
+	static void printResults();
 
 private:
-
-	void charge();
 
 	void recordFlightData();
 
@@ -35,5 +34,7 @@ private:
 	static int totalFaults;
 
 	static float totalPassengerMiles;
+
+	static int totalAircraft;
 	
 };

@@ -1,4 +1,5 @@
 #include "eVTOL_Echo.h"
+#include <iostream>
 
 float eVTOL_Echo::totalFlightTime = 0;
 int eVTOL_Echo::totalFlights = 0;
@@ -7,6 +8,7 @@ float eVTOL_Echo::timeSpentCharging = 0;
 int eVTOL_Echo::chargeSessions = 0;
 int eVTOL_Echo::totalFaults = 0;
 float eVTOL_Echo::totalPassengerMiles = 0;
+int eVTOL_Echo::totalAircraft = 0;
 
 
 eVTOL_Echo::eVTOL_Echo()
@@ -41,4 +43,11 @@ void eVTOL_Echo::incrementTimeSpentCharging()
 void eVTOL_Echo::incrementChargeSessions()
 {
 	this->chargeSessions += .01;
+}
+
+void eVTOL_Echo::printResults()
+{
+	std::cout << "\n Alpha Company Results: \n Total Aircraft: " << eVTOL_Echo::totalAircraft << "\n Average Flight Time per flight: " << eVTOL_Echo::totalFlightTime / eVTOL_Echo::totalFlights;
+	std::cout << "\n Average distance traveled per flight: " << eVTOL_Echo::totalDistanceTravelled / eVTOL_Echo::totalFlights << "\n Average time spent charging per session: " << eVTOL_Echo::timeSpentCharging / eVTOL_Echo::chargeSessions;
+	std::cout << "\n Total Number of Faults: " << eVTOL_Echo::totalFaults << "\n Total number of passenger miles: " << eVTOL_Echo::totalPassengerMiles;
 }

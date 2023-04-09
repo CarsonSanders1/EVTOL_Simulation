@@ -11,9 +11,9 @@ public:
 	//Deconstructor
 	~eVTOL_Bravo();	
 
-private:
+	static void printResults();
 
-	void charge();
+private:
 
 	void recordFlightData();
 
@@ -34,5 +34,7 @@ private:
 	static int totalFaults;
 
 	static float totalPassengerMiles;
+
+	static int totalAircraft;
 	
 };

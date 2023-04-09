@@ -1,51 +1,47 @@
-﻿  Main.cpp
-  Simulation.cpp
+﻿  Simulation.cpp
 C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\Simulation.cpp(54,36): warning C4305: '+=': truncation from 'double' to 'float'
-  eVTOL_Aircraft.cpp
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Aircraft.cpp(23,70): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Aircraft.cpp(53,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   eVTOL_Alpha.cpp
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(16,25): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(17,23): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(24,30): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(25,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(27,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(37,32): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(42,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(18,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(19,23): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(28,30): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(29,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(31,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(41,32): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(46,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   eVTOL_Bravo.cpp
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(16,25): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(19,29): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(24,30): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(25,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(27,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(37,32): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(42,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(18,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(21,29): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(28,30): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(29,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(31,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(41,32): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Bravo.cpp(46,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   eVTOL_Charlie.cpp
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(16,25): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(17,23): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(19,30): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(24,30): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(25,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(27,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(37,32): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(42,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(18,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(19,23): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(21,30): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(27,30): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(28,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(30,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(40,32): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Charlie.cpp(45,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   eVTOL_Delta.cpp
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(16,26): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(17,22): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(19,30): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(24,30): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(25,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(27,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(37,32): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(42,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(18,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(19,22): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(21,30): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(28,30): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(29,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(31,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(41,32): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Delta.cpp(46,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   eVTOL_Echo.cpp
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(17,25): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(18,23): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(20,30): warning C4305: '=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(25,30): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(26,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(28,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(38,32): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(43,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(19,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(20,23): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(22,30): warning C4305: '=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(27,30): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(28,59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(30,79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(40,32): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Echo.cpp(45,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   Generating Code...
   EVTOL_Simulation.vcxproj -> C:\Repos\EVTOL_Simulation\EVTOL_Simulation\Debug\EVTOL_Simulation.exe

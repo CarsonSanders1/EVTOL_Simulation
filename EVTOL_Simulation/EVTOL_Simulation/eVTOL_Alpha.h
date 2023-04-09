@@ -11,7 +11,7 @@ public:
 	//Deconstructor
 	~eVTOL_Alpha();
 
-	
+	static void printResults();
 
 private:
 
@@ -22,8 +22,6 @@ private:
 	void incrementTimeSpentCharging();
 
 	void incrementChargeSessions();
-
-	void charge();
 
 	//Per Vehicle type statistics to track
 	static float totalFlightTime;
@@ -36,5 +34,6 @@ private:
 	static int totalFaults;
 
 	static float totalPassengerMiles;
-	
+
+	static int totalAircraft;
 };

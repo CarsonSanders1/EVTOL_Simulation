@@ -57,5 +57,9 @@ void Simulation::Simulate()
 
 void Simulation::printResults()
 {
-    
+    eVTOL_Alpha::printResults();
+    eVTOL_Bravo::printResults();
+    eVTOL_Charlie::printResults();
+    eVTOL_Delta::printResults();
+    eVTOL_Echo::printResults();
 }
