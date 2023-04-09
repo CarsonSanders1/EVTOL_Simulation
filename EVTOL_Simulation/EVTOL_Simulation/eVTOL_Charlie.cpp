@@ -47,7 +47,7 @@ void eVTOL_Charlie::incrementChargeSessions()
 
 void eVTOL_Charlie::printResults()
 {
-	std::cout << "\n Alpha Company Results: \n Total Aircraft: " << eVTOL_Charlie::totalAircraft << "\n Average Flight Time per flight: " << eVTOL_Charlie::totalFlightTime / eVTOL_Charlie::totalFlights;
+	std::cout << "\n Charlie Company Results: \n Total Aircraft: " << eVTOL_Charlie::totalAircraft << "\n Average Flight Time per flight: " << eVTOL_Charlie::totalFlightTime / eVTOL_Charlie::totalFlights;
 	std::cout << "\n Average distance traveled per flight: " << eVTOL_Charlie::totalDistanceTravelled / eVTOL_Charlie::totalFlights << "\n Average time spent charging per session: " << eVTOL_Charlie::timeSpentCharging / eVTOL_Charlie::chargeSessions;
 	std::cout << "\n Total Number of Faults: " << eVTOL_Charlie::totalFaults << "\n Total number of passenger miles: " << eVTOL_Charlie::totalPassengerMiles;
 }

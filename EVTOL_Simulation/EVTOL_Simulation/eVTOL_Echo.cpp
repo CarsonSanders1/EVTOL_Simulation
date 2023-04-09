@@ -20,6 +20,8 @@ eVTOL_Echo::eVTOL_Echo()
 	this->energyUse = 5.8;
 	this->passengerCount = 2;
 	this->faultProbability = .61;
+
+	this->totalAircraft += 1;
 }
 
 void eVTOL_Echo::recordFlightData()
@@ -47,7 +49,7 @@ void eVTOL_Echo::incrementChargeSessions()
 
 void eVTOL_Echo::printResults()
 {
-	std::cout << "\n Alpha Company Results: \n Total Aircraft: " << eVTOL_Echo::totalAircraft << "\n Average Flight Time per flight: " << eVTOL_Echo::totalFlightTime / eVTOL_Echo::totalFlights;
+	std::cout << "\n Echo Company Results: \n Total Aircraft: " << eVTOL_Echo::totalAircraft << "\n Average Flight Time per flight: " << eVTOL_Echo::totalFlightTime / eVTOL_Echo::totalFlights;
 	std::cout << "\n Average distance traveled per flight: " << eVTOL_Echo::totalDistanceTravelled / eVTOL_Echo::totalFlights << "\n Average time spent charging per session: " << eVTOL_Echo::timeSpentCharging / eVTOL_Echo::chargeSessions;
 	std::cout << "\n Total Number of Faults: " << eVTOL_Echo::totalFaults << "\n Total number of passenger miles: " << eVTOL_Echo::totalPassengerMiles;
 }
