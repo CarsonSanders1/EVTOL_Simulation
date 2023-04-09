@@ -41,25 +41,23 @@ void eVTOL_Aircraft::charge()
 		}
 		else
 		{
+			this->chargeTimeRemaining = this->timeToCharge;
 			eVTOL_Aircraft::availableChargers -= 1;
+			incrementChargeSessions();
 			this->isCharging = true;
 		}
 	}
 
 	if (isCharging)
 	{
-		auto chargeRate = this->batteryCapacity / this->timeToCharge;
-
-		this->currentBattery += chargeRate * .01;
+		this->chargeTimeRemaining -= .01;
 
 		//this->timeSpentCharging += .01;
 		incrementTimeSpentCharging();
 
 		//if finished charging
-		if (this->currentBattery >= this->batteryCapacity)
+		if (this->chargeTimeRemaining <= 0)
 		{
-			//this->chargeSessions += 1;
-			incrementChargeSessions();
 			this->isCharging = false;
 			this->needsCharge = false;
 			this->availableChargers += 1;

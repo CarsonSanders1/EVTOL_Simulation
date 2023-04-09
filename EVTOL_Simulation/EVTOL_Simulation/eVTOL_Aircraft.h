@@ -27,6 +27,7 @@ protected:
 	int batteryCapacity;
 	float currentBattery;
 	float timeToCharge;
+	float chargeTimeRemaining;
 	float energyUse;
 	int passengerCount;
 	float faultProbability;
