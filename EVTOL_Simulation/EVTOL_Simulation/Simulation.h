@@ -14,6 +14,8 @@ public:
 
 private:
 
+	bool calculateFault(float faultProbability);
+
 	const int AMOUNT_OF_AIRCRAFT = 20;
 
 	//Total simulation time in hours

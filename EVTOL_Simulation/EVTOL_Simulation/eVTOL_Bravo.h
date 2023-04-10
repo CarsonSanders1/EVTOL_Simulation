@@ -13,9 +13,12 @@ public:
 
 	static void printResults();
 
+	void incrementFaults();
+
 private:
 
 	void recordFlightData();
+
 
 	void incrementTotalFlights();
 

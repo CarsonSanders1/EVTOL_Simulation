@@ -9,6 +9,11 @@ public:
 	/// Advance simulation by .01 hours
 	void stepSimulation();
 
+	float getFaultProbability();
+
+	// Increment the amount of faults recorded per aircraft type
+	virtual void incrementFaults() = 0;
+
 protected:
 
 	void charge();

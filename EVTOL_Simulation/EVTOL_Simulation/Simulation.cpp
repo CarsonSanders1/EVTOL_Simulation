@@ -49,6 +49,16 @@ void Simulation::Simulate()
         for (eVTOL_Aircraft* aCraft : aircraft)
         {
             aCraft->stepSimulation();
+
+            //if simulationTime is on a whole number (i.e every hour)
+            if (floor(this->simulationTime) == this->simulationTime)
+            {
+                //calculate fault chance
+                if (calculateFault(aCraft->getFaultProbability()))
+                {
+                    aCraft->incrementFaults();
+                }
+            }
         }
 
         this->simulationTime += .01;
@@ -62,4 +72,24 @@ void Simulation::printResults()
     eVTOL_Charlie::printResults();
     eVTOL_Delta::printResults();
     eVTOL_Echo::printResults();
+}
+
+
+bool Simulation::calculateFault(float faultProbability)
+{
+    // Seed the random number generator with current time
+    std::srand(std::time(0));
+
+    // Generate a random float between 0 and 1
+    float random = static_cast<float>(std::rand()) / RAND_MAX;
+
+    // Check if the random float is less than the given probability
+    if (random < faultProbability) {
+        // Fault occurs
+        return true;
+    }
+    else {
+        // No fault
+        return false;
+    }
 }

@@ -1,7 +1,8 @@
 #include <iostream>
+//#include <gtest/gtest.h>
 #include "Simulation.h"
 
-int main()
+int main()//int argc, char* argv[])
 {
 	std::cout << "Hello Joby";
 
@@ -10,4 +11,7 @@ int main()
 	sim->Simulate();
 
 	sim->printResults();
+
+	//testing::InitGoogleTest(&argc, argv);
+	//return RUN_ALL_TESTS();
 }

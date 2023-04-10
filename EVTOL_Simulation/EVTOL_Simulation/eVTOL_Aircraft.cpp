@@ -1,4 +1,6 @@
 #include "eVTOL_Aircraft.h"
+#include <cstdlib>
+#include <ctime>
 
 //Initialize Chargers
 int eVTOL_Aircraft::availableChargers = 3;
@@ -43,6 +45,8 @@ void eVTOL_Aircraft::charge()
 		{
 			this->chargeTimeRemaining = this->timeToCharge;
 			eVTOL_Aircraft::availableChargers -= 1;
+
+			//Track how many times this type of aircraft has stopped to charge
 			incrementChargeSessions();
 			this->isCharging = true;
 		}
@@ -63,4 +67,9 @@ void eVTOL_Aircraft::charge()
 			this->availableChargers += 1;
 		}
 	}
+}
+
+float eVTOL_Aircraft::getFaultProbability()
+{
+	return this->faultProbability;
 }

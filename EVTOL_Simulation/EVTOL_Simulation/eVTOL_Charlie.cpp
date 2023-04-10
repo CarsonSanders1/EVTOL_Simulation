@@ -26,7 +26,6 @@ void eVTOL_Charlie::recordFlightData()
 {
 	this->totalFlightTime += .01;
 	this->totalDistanceTravelled += (.01 * this->cruiseSpeed);
-	////@Todo calculate fault
 	this->totalPassengerMiles += (.01 * this->cruiseSpeed * this->passengerCount);
 }
 
@@ -43,6 +42,11 @@ void eVTOL_Charlie::incrementTimeSpentCharging()
 void eVTOL_Charlie::incrementChargeSessions()
 {
 	this->chargeSessions += 1;
+}
+
+void eVTOL_Charlie::incrementFaults()
+{
+	this->totalFaults += 1;
 }
 
 void eVTOL_Charlie::printResults()
