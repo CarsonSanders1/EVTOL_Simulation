@@ -11,6 +11,7 @@ public:
 	//Deconstructor
 	~eVTOL_Bravo();	
 
+	//Prints tracked results to the console
 	static void printResults();
 
 	void incrementFaults();

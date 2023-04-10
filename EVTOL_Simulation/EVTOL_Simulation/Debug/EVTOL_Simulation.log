@@ -3,8 +3,8 @@
 C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\Simulation.cpp(64,36): warning C4305: '+=': truncation from 'double' to 'float'
 C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\Simulation.cpp(81,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   eVTOL_Aircraft.cpp
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Aircraft.cpp(25,70): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Aircraft.cpp(57,35): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Aircraft.cpp(20,70): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Aircraft.cpp(55,35): warning C4305: '-=': truncation from 'double' to 'float'
   eVTOL_Alpha.cpp
 C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(18,25): warning C4305: '=': truncation from 'double' to 'float'
 C:\Repos\EVTOL_Simulation\EVTOL_Simulation\EVTOL_Simulation\eVTOL_Alpha.cpp(19,23): warning C4305: '=': truncation from 'double' to 'float'

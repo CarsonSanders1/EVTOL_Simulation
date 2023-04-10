@@ -11,6 +11,7 @@ public:
 	//Deconstructor
 	~eVTOL_Alpha();
 
+	//Prints tracked results to the console
 	static void printResults();
 
 	void incrementFaults();

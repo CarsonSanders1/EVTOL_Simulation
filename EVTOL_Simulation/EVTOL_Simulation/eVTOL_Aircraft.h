@@ -1,10 +1,11 @@
 #pragma once
 
+/// 
+/// This class serves as an abstract base class for the different types of eVTOL aircraft
+/// 
 class eVTOL_Aircraft
 {
 public: 
-
-	eVTOL_Aircraft();
 	 
 	/// Advance simulation by .01 hours
 	void stepSimulation();
