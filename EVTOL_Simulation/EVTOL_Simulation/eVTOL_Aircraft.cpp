@@ -27,6 +27,9 @@ void eVTOL_Aircraft::stepSimulation()
 		if (currentBattery <= 0)
 		{
 			currentBattery = 0;
+			
+			//Increments total flights when battery is dead. This is assuming that each flight lasts for the entire battery duration of the aircraft.
+			//@TODO:Implement flight system with random distances
 			incrementTotalFlights();
 			this->needsCharge = true;
 		}
@@ -56,7 +59,6 @@ void eVTOL_Aircraft::charge()
 	{
 		this->chargeTimeRemaining -= .01;
 
-		//this->timeSpentCharging += .01;
 		incrementTimeSpentCharging();
 
 		//if finished charging
