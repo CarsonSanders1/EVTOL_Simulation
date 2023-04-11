@@ -53,6 +53,21 @@ TEST(eVTOL_Alpha_, eVTOLAlpha)
 
 }
 
+TEST(eVTOL_Alpha_SimulationTest, eVTOLAlpha)
+{
+	eVTOL_Alpha* alpha = new eVTOL_Alpha();
+	
+	//Simulate for an hour
+	for(int i = 0; i < 100; i++)
+	{
+		alpha->stepSimulation();
+	}
+	
+	//Distance traveled should equal given cruise speed
+	ASSERT_EQ(alpha->distanceTraveled, 120);
+	ASSERT_EQ(alpha->distanceTraveled, alpha->cruiseSpeed);
+}
+
 TEST(SimulationConstruction, SimulationTest)
 {
 	Simulation* sim = new Simulation();
